@@ -236,7 +236,6 @@ html{
 }
 .topic{
 	width: 100%;
-	/*padding-left: 17px;*/
 }
 .slick-next:before, .slick-prev:before {
 	content: '';
@@ -304,11 +303,6 @@ html{
 .jq-selectbox__trigger {
 	border-left: 0px solid #CCC;
 }
-/*.shown{
-	display: none;
-	transition: all .3s linear;
-}*/
-
 #mCSB_1_dragger_vertical .mCSB_dragger{
 	max-height: 1px;
 }

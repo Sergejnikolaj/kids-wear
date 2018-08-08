@@ -7,6 +7,7 @@
 			<script type="text/javascript" src="js/slick/slick.js"></script>
 			<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 			<script src="js/jquery.formstyler.min.js"></script>
+			<script src="js/scripts.js"></script>
 			<link rel="stylesheet" href="style/jquery.mCustomScrollbar.min.css">
 			<link rel="stylesheet" type="text/css" href="js/slick/slick.css">
 			<link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css">
@@ -15,7 +16,6 @@
 			<link href="style/style.css" rel="stylesheet">
 		</head>
 		<body>
-			
 			<div class='wrapper'>
 				<div class='topic'><h1>Одежда для девочек</h1></div>
 				<div class='s_bar_holder'>
@@ -62,7 +62,6 @@
 					</div>
 				</div>
 				<div class='p_section'>
-					
 					<div class='product'>
 						<div class='container'>
 							<div><a href=#><img src='img/clothes.jpg'></a></div>
@@ -98,86 +97,44 @@
 						</div>
 					</div>
 					<div class='clearfix'></div>
-					
 					<div class='topic'><h2>Похожие товары</h2></div>
-					
 					<div class='sub_section'>	
-					<div class='single-slide'>
-						<div class='product'>
-							<div class='container'>
-								<div><a href=#><img src='img/clothes.jpg'></a></div>
-								<div class='stars'><img src='img/5_stars.jpg'></div>
-								<div class='product_name'><a href=#>Свитер в полоску Свитер в полоску</a></div>
-								<div class='product_price'>123 грн</div>
+						<div class='single-slide'>
+							<div class='product'>
+								<div class='container'>
+									<div><a href=#><img src='img/clothes.jpg'></a></div>
+									<div class='stars'><img src='img/5_stars.jpg'></div>
+									<div class='product_name'><a href=#>Свитер в полоску Свитер в полоску</a></div>
+									<div class='product_price'>123 грн</div>
+								</div>
 							</div>
-						</div>
-						<div class='product'>
-							<div class='container'>
-								<div><a href=#><img src='img/clothes_2.jpg'></a></div>
-								<div class='stars'><img src='img/4_stars.jpg'></div>
-								<div class='product_name'><a href=#>Платье с цветочным принтом</a></div>
-								<div class='product_price'>123 грн</div>
+							<div class='product'>
+								<div class='container'>
+									<div><a href=#><img src='img/clothes_2.jpg'></a></div>
+									<div class='stars'><img src='img/4_stars.jpg'></div>
+									<div class='product_name'><a href=#>Платье с цветочным принтом</a></div>
+									<div class='product_price'>123 грн</div>
+								</div>
 							</div>
-						</div>
-						<div class='product'>
-							<div class='container'>
-								<div><a href=#><img src='img/clothes_3.jpg'></a></div>
-								<div class='stars'><img src='img/4_stars.jpg'></div>
-								<div class='product_name'><a href=#>Джинсовый комбинезон Джинсовый комбинезон Джинсовый комбинезон</a></div>
-								<div class='product_price'>123 грн</div>
+							<div class='product'>
+								<div class='container'>
+									<div><a href=#><img src='img/clothes_3.jpg'></a></div>
+									<div class='stars'><img src='img/4_stars.jpg'></div>
+									<div class='product_name'><a href=#>Джинсовый комбинезон Джинсовый комбинезон Джинсовый комбинезон</a></div>
+									<div class='product_price'>123 грн</div>
+								</div>
 							</div>
-						</div>
-						<div class='product'>
-							<div class='container'>
-								<div><a href=#><img src='img/clothes.jpg'></a></div>
-								<div class='stars'><img src='img/5_stars.jpg'></div>
-								<div class='product_name'><a href=#>Свитер в полоску</a></div>
-								<div class='product_price'>123 грн</div>
+							<div class='product'>
+								<div class='container'>
+									<div><a href=#><img src='img/clothes.jpg'></a></div>
+									<div class='stars'><img src='img/5_stars.jpg'></div>
+									<div class='product_name'><a href=#>Свитер в полоску</a></div>
+									<div class='product_price'>123 грн</div>
+								</div>
 							</div>
 						</div>
 					</div>
+				</div>
 			</div>
-			
-			<script type="text/javascript">
-			
-				$(document).ready(function(){
-					
-					$('.materials, .categories').click(function(){
-						$(this).next().toggle();
-						$(this).toggleClass('opened');
-					});
-					
-					$(".m_wrapper").mCustomScrollbar();
-					
-					$('select').styler();
-					
-					$('.single-slide').slick({
-						dots: true,
-						slidesToShow: 3,
-						slidesToScroll: 1,
-						responsive: [
-							{
-								breakpoint: 768,
-									settings: {
-										slidesToShow: 2,
-										slidesToScroll: 2,
-										dots: true
-									}
-							},
-							{
-								breakpoint: 480,
-									settings: {
-										slidesToShow: 1,
-										slidesToScroll: 1
-									}
-							}
-						
-						
-						]
-					});
-					
-				});
-				
-			</script>
 		</body>
 	</html>
